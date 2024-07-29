@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+main{
+    margin-top: 20px;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 30px 10px 40px 10px;
+    background-color: rgb(27, 26, 26);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
+    border: 2px solid rgba(0, 0, 0, 0.425);
+}
+h2{
+    font-style: serif;
+    color: white;
+    background-color:rgb(34, 29, 29) ;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 5px rgba(85, 79, 79, 0.541);
+}
+.display{
+    height: 70px;
+    background-color: rgb(213, 255, 255);
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    overflow: hidden;
+}
+.boxes{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    /* height: 50vmin; */
+    gap: 10px;
+    /* width: 100%; */
+}
+.box{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+    background-color: rgba(53, 48, 48, 0.678);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.math{
+    height:35px;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.equal{
+    width: 60px;
+    background-color: #ff632a;
+}
